@@ -1,0 +1,92 @@
+{
+  "PropertyDetails": {
+    "identification": {
+      "address_full": "7709 Palmbrook Dr, Tampa, FL 33615",
+      "street": "7709 Palmbrook Dr",
+      "city": "Tampa",
+      "state": "FL",
+      "postal_code": "33615",
+      "property_type": "SFR",
+      "year_built": 1995,
+      "living_sqft": 2500,
+      "lot_sqft": 7500,
+      "bedrooms": 4,
+      "bathrooms_full": 3,
+      "bathrooms_half": null,
+      "heating_type": "ForcedAirUnit",
+      "exterior_materials": [],
+      "interior_materials": []
+    },
+    "location": {
+      "lat": 28.0836,
+      "lon": -82.5129,
+      "county_fips": null,
+      "subdivision": null,
+      "neighborhood": null
+    },
+    "ai_fields": {
+      "architectural_styles": [],
+      "finish_quality_score": null,
+      "condition_score": null,
+      "road_relations": []
+    },
+    "price_history": {
+      "property_market_status": "Active",
+      "list_price": 485000,
+      "last_sale_price": null,
+      "mls_history": [
+        {
+          "price": 485000,
+          "date": "2024-01-15",
+          "status": "Active",
+          "days_on_market": null
+        },
+        {
+          "price": 475000,
+          "date": "2023-12-01",
+          "status": "Active",
+          "days_on_market": null
+        }
+      ],
+      "sale_history": []
+    },
+    "photos": [
+      {
+        "sources": [
+          {
+            "url": "https://photos.zillowstatic.com/fp/7709palmbrook_exterior_front.jpg",
+            "width": 1536,
+            "height": 1024,
+            "classification_type": "unassigned"
+          }
+        ]
+      },
+      {
+        "sources": [
+          {
+            "url": "https://photos.zillowstatic.com/fp/7709palmbrook_living_room.jpg",
+            "width": 1344,
+            "height": 1008,
+            "classification_type": "unassigned"
+          }
+        ]
+      },
+      {
+        "sources": [
+          {
+            "url": "https://photos.zillowstatic.com/fp/7709palmbrook_kitchen.jpg",
+            "width": 1024,
+            "height": 768,
+            "classification_type": "unassigned"
+          }
+        ]
+      }
+    ],
+    "meta_data": {
+      "data_source": "Zillow",
+      "source_property_id": "61975204",
+      "fetch_timestamp": "2024-05-24T15:42:33.789123",
+      "api_version": "v5.7_FINAL_CLIENT"
+    }
+  }
+}

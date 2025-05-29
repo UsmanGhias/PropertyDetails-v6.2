@@ -1,0 +1,76 @@
+{
+  "PropertyDetails": {
+    "identification": {
+      "address_full": "123 Example St, Tampa, FL 33615",
+      "street": "123 Example St",
+      "city": "Tampa",
+      "state": "FL",
+      "postal_code": "33615",
+      "property_type": "SFR",
+      "year_built": 2005,
+      "living_sqft": 2150,
+      "lot_sqft": 8500,
+      "bedrooms": 4,
+      "bathrooms_full": 3,
+      "bathrooms_half": null,
+      "heating_type": "ForcedAirUnit",
+      "exterior_materials": [],
+      "interior_materials": []
+    },
+    "location": {
+      "lat": 28.015482,
+      "lon": -82.565594,
+      "county_fips": null,
+      "subdivision": null,
+      "neighborhood": null
+    },
+    "ai_fields": {
+      "architectural_styles": [],
+      "finish_quality_score": null,
+      "condition_score": null,
+      "road_relations": []
+    },
+    "price_history": {
+      "property_market_status": "Active",
+      "list_price": 425000,
+      "last_sale_price": null,
+      "mls_history": [
+        {
+          "price": 425000,
+          "date": "2024-01-15",
+          "event": "Listed",
+          "source": "Zillow"
+        }
+      ],
+      "sale_history": []
+    },
+    "photos": [
+      {
+        "sources": [
+          {
+            "url": "https://photos.zillowstatic.com/fp/example1.jpg",
+            "width": 1024,
+            "height": 768,
+            "classification_type": "unassigned"
+          }
+        ]
+      },
+      {
+        "sources": [
+          {
+            "url": "https://photos.zillowstatic.com/fp/example2.jpg",
+            "width": 1024,
+            "height": 768,
+            "classification_type": "unassigned"
+          }
+        ]
+      }
+    ],
+    "meta_data": {
+      "data_source": "Zillow",
+      "source_property_id": "32345614",
+      "fetch_timestamp": "2025-05-28T12:03:19.270221",
+      "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+    }
+  }
+}

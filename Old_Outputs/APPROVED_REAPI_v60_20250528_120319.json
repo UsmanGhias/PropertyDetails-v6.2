@@ -1,0 +1,103 @@
+{
+  "PropertyDetails": {
+    "identification": {
+      "apn": "U25281709I000001000140",
+      "address_full": "7709 Palmbrook Dr, Tampa, FL 33615",
+      "street": "7709 Palmbrook Dr",
+      "city": "Tampa",
+      "state": "FL",
+      "postal_code": "33615",
+      "zoning": "RSC-6",
+      "property_type": "SFR",
+      "property_use": "Single Family Residence",
+      "landUse": "RESIDENTIAL",
+      "legalDescription": "LOT 14 BLOCK 1 TWELVE OAKS VILLAGE UNIT NO 2",
+      "propertyClass": "Residential",
+      "interior_materials": [
+        "Drywall"
+      ],
+      "year_built": 1977,
+      "living_sqft": 2200,
+      "building_sqft": 2500,
+      "lot_sqft": 10890,
+      "lot_acres": 0.25,
+      "floor_count": 1.0,
+      "bedrooms": 4,
+      "bathrooms_full": 2,
+      "bathrooms_half": 1,
+      "basement": false,
+      "basement_type": "No Basement",
+      "basementFinishedPercent": 0,
+      "basementSquareFeet": 0,
+      "basementSquareFeetFinished": 0,
+      "basementSquareFeetUnfinished": 0,
+      "unit_count": 1,
+      "building_count": 1,
+      "attic": true,
+      "foundation_type": "Concrete Slab",
+      "roof_type": "AsphaltShingle",
+      "roof_construction_type": "Gable",
+      "parking_type": "Attached Garage",
+      "parking_spaces": 2,
+      "parking_space_sqft": 400,
+      "pool": true,
+      "deck": true,
+      "deck_area": 200,
+      "patio": true,
+      "patio_area": 150,
+      "porch_type": null,
+      "porch_area": null,
+      "rv_parking": false,
+      "fireplace": true,
+      "fireplaces": 1,
+      "air_conditioning_type": "Central",
+      "heating_type": "ForcedAirUnit",
+      "heating_fuel_type": "Electric",
+      "water_type": "Public",
+      "sewer_type": "Public",
+      "hoa": true,
+      "hoa_fee_annual": 850
+    },
+    "location": {
+      "lat": 28.015482,
+      "lon": -82.565594,
+      "census_block": "3015",
+      "census_block_group": "5",
+      "census_tract": "011612",
+      "subdivision": "Twelve Oaks Village Unit No 2",
+      "neighborhood": "Town N Country",
+      "flood_zone": "X"
+    },
+    "ai_fields": {},
+    "price_history": {
+      "property_market_status": "OffMarket",
+      "list_price": 250000,
+      "listed_date": "2023-05-01",
+      "last_sale_price": 205000,
+      "last_sale_date": "2013-10-23",
+      "sale_history": [
+        {
+          "price": 205000,
+          "date": "2013-10-23",
+          "transaction_type": "ArmsLengthResidential"
+        },
+        {
+          "price": 187500,
+          "date": "2005-04-15",
+          "transaction_type": "ArmsLengthResidential"
+        },
+        {
+          "price": 125000,
+          "date": "1997-08-30",
+          "transaction_type": "ArmsLengthResidential"
+        }
+      ]
+    },
+    "photos": [],
+    "environmental_factors": [],
+    "meta_data": {
+      "data_source": "REAPI",
+      "source_property_id": "144568423"
+    }
+  }
+}

@@ -1,0 +1,4756 @@
+{
+  "extraction_summary": {
+    "target_address": "7709 Palmbrook Dr, Tampa, FL 33615",
+    "extraction_timestamp": "2025-05-28T18:23:04.492565",
+    "total_properties_found": 25,
+    "properties_processed": 25,
+    "successful_extractions": 25,
+    "failed_extractions": 0,
+    "data_source": "Generated Tampa Area Data",
+    "area_characteristics": {
+      "neighborhoods": 16,
+      "subdivisions": 14,
+      "property_types": [
+        "SFR",
+        "Townhome",
+        "Condo"
+      ],
+      "price_ranges": {
+        "SFR": [
+          200000,
+          800000
+        ],
+        "Townhome": [
+          150000,
+          450000
+        ],
+        "Condo": [
+          100000,
+          350000
+        ]
+      }
+    }
+  },
+  "properties": [
+    {
+      "property_index": 1,
+      "search_result": {
+        "address": "4676 Waters Ave, Tampa, FL 33624",
+        "property_type": "SFR",
+        "price": 309283
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "8351 Fowler Ave, Tampa, FL 33615",
+            "street": "8351 Fowler Ave",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33624",
+            "property_type": "Townhome",
+            "year_built": 2012,
+            "living_sqft": 2165,
+            "lot_sqft": 157,
+            "bedrooms": 5,
+            "bathrooms_full": 4,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 28.009555,
+            "lon": -82.591759,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 511271,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 511271,
+                "date": "2025-05-25",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_1783766_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_6751845_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "58707836",
+            "fetch_timestamp": "2025-05-28T18:23:04.493086",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U72814835I1570143591",
+            "address_full": "4676 Waters Ave, Tampa, FL 33624",
+            "street": "4676 Waters Ave",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33615",
+            "zoning": "R-2",
+            "property_type": "SFR",
+            "property_use": "Single Family Residence",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 42 BLOCK 9 BLOOMINGDALE",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 1991,
+            "living_sqft": 2762,
+            "building_sqft": 3335,
+            "lot_sqft": 6741,
+            "lot_acres": 0.15,
+            "floor_count": 1.0,
+            "bedrooms": 5,
+            "bathrooms_full": 4,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": true,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "AsphaltShingle",
+            "roof_construction_type": "Gable",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 1,
+            "parking_space_sqft": 200,
+            "pool": false,
+            "deck": true,
+            "deck_area": 300,
+            "patio": true,
+            "patio_area": 153,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": false,
+            "fireplaces": 0,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Gas",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": true,
+            "hoa_fee_annual": 986
+          },
+          "location": {
+            "lat": 28.013341,
+            "lon": -82.592228,
+            "census_block": "8399",
+            "census_block_group": "8",
+            "census_tract": "463308",
+            "subdivision": "New Tampa",
+            "neighborhood": "Valrico",
+            "flood_zone": "A"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "Pending",
+            "list_price": 309283,
+            "listed_date": "2025-03-17",
+            "last_sale_price": 193091,
+            "last_sale_date": "2010-09-04",
+            "sale_history": [
+              {
+                "price": 193091,
+                "date": "2010-09-04",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "111719715",
+            "fetch_timestamp": "2025-05-28T18:23:04.492970",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.493190"
+      }
+    },
+    {
+      "property_index": 2,
+      "search_result": {
+        "address": "9286 Gandy Blvd, Tampa, FL 33624",
+        "property_type": "Condo",
+        "price": 205980
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "1747 Kennedy Blvd, Tampa, FL 33624",
+            "street": "1747 Kennedy Blvd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33615",
+            "property_type": "Condo",
+            "year_built": 2009,
+            "living_sqft": 1262,
+            "lot_sqft": 0,
+            "bedrooms": 3,
+            "bathrooms_full": 3,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 28.003044,
+            "lon": -82.590387,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 301086,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 301086,
+                "date": "2025-04-27",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_5287954_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_2428049_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "16439196",
+            "fetch_timestamp": "2025-05-28T18:23:04.493685",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U21654939I4057771687",
+            "address_full": "9286 Gandy Blvd, Tampa, FL 33624",
+            "street": "9286 Gandy Blvd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33647",
+            "zoning": "R-1",
+            "property_type": "Condo",
+            "property_use": "Condo",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 1 BLOCK 8 HUNTER'S GREEN",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 2014,
+            "living_sqft": 846,
+            "building_sqft": 1045,
+            "lot_sqft": 0,
+            "lot_acres": 0,
+            "floor_count": 1.0,
+            "bedrooms": 2,
+            "bathrooms_full": 2,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": false,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "Tile",
+            "roof_construction_type": "Hip",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 1,
+            "parking_space_sqft": 200,
+            "pool": false,
+            "deck": true,
+            "deck_area": null,
+            "patio": false,
+            "patio_area": 115,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": false,
+            "fireplaces": 0,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Gas",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": false,
+            "hoa_fee_annual": 901
+          },
+          "location": {
+            "lat": 28.01958,
+            "lon": -82.574175,
+            "census_block": "7143",
+            "census_block_group": "9",
+            "census_tract": "355455",
+            "subdivision": "Bloomingdale",
+            "neighborhood": "Valrico",
+            "flood_zone": "X"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 205980,
+            "listed_date": "2024-12-07",
+            "last_sale_price": 183734,
+            "last_sale_date": "2022-12-31",
+            "sale_history": [
+              {
+                "price": 141193,
+                "date": "2017-05-18",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 178608,
+                "date": "2021-10-23",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 183734,
+                "date": "2022-12-31",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "728038920",
+            "fetch_timestamp": "2025-05-28T18:23:04.493577",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.493778"
+      }
+    },
+    {
+      "property_index": 3,
+      "search_result": {
+        "address": "6262 Fowler Ave, Tampa, FL 33615",
+        "property_type": "Townhome",
+        "price": 172023
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "5155 Kennedy Blvd, Tampa, FL 33618",
+            "street": "5155 Kennedy Blvd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33618",
+            "property_type": "SFR",
+            "year_built": 2021,
+            "living_sqft": 3155,
+            "lot_sqft": 13840,
+            "bedrooms": 6,
+            "bathrooms_full": 5,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 27.993622,
+            "lon": -82.569185,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 660925,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 660925,
+                "date": "2025-03-17",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_6815857_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_6684883_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "73162620",
+            "fetch_timestamp": "2025-05-28T18:23:04.494247",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U46945944I9806998681",
+            "address_full": "6262 Fowler Ave, Tampa, FL 33615",
+            "street": "6262 Fowler Ave",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33626",
+            "zoning": "RSC-6",
+            "property_type": "Townhome",
+            "property_use": "Townhome",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 1 BLOCK 10 HERITAGE HARBOR",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 2008,
+            "living_sqft": 1142,
+            "building_sqft": 1396,
+            "lot_sqft": 1562,
+            "lot_acres": 0.04,
+            "floor_count": 2.0,
+            "bedrooms": 3,
+            "bathrooms_full": 2,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": true,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "AsphaltShingle",
+            "roof_construction_type": "Hip",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 3,
+            "parking_space_sqft": 600,
+            "pool": false,
+            "deck": true,
+            "deck_area": null,
+            "patio": true,
+            "patio_area": 180,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": false,
+            "fireplaces": 0,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Electric",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": false,
+            "hoa_fee_annual": null
+          },
+          "location": {
+            "lat": 27.988985,
+            "lon": -82.56276,
+            "census_block": "5269",
+            "census_block_group": "7",
+            "census_tract": "584593",
+            "subdivision": "Carrollwood Village",
+            "neighborhood": "Valrico",
+            "flood_zone": "X"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "Pending",
+            "list_price": 172023,
+            "listed_date": "2025-05-25",
+            "last_sale_price": 146058,
+            "last_sale_date": "2019-09-03",
+            "sale_history": [
+              {
+                "price": 146058,
+                "date": "2019-09-03",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "943403476",
+            "fetch_timestamp": "2025-05-28T18:23:04.494114",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.494334"
+      }
+    },
+    {
+      "property_index": 4,
+      "search_result": {
+        "address": "1815 Westchase Blvd, Tampa, FL 33615",
+        "property_type": "Condo",
+        "price": 230796
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "6671 Van Dyke Rd, Tampa, FL 33615",
+            "street": "6671 Van Dyke Rd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33647",
+            "property_type": "Condo",
+            "year_built": 2001,
+            "living_sqft": 1160,
+            "lot_sqft": 0,
+            "bedrooms": 3,
+            "bathrooms_full": 2,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 28.031951,
+            "lon": -82.577797,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 118895,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 118895,
+                "date": "2025-03-15",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_8898258_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_9218314_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "24990238",
+            "fetch_timestamp": "2025-05-28T18:23:04.494818",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U74842350I7394347541",
+            "address_full": "1815 Westchase Blvd, Tampa, FL 33615",
+            "street": "1815 Westchase Blvd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33618",
+            "zoning": "PD",
+            "property_type": "Condo",
+            "property_use": "Condo",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 18 BLOCK 3 COUNTRYWAY",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 1979,
+            "living_sqft": 1504,
+            "building_sqft": 1676,
+            "lot_sqft": 0,
+            "lot_acres": 0,
+            "floor_count": 2.0,
+            "bedrooms": 3,
+            "bathrooms_full": 2,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": false,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "Metal",
+            "roof_construction_type": "Hip",
+            "parking_type": "None",
+            "parking_spaces": 0,
+            "parking_space_sqft": 0,
+            "pool": false,
+            "deck": false,
+            "deck_area": 228,
+            "patio": false,
+            "patio_area": 183,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": false,
+            "fireplaces": 0,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Gas",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": true,
+            "hoa_fee_annual": 1155
+          },
+          "location": {
+            "lat": 28.013374,
+            "lon": -82.557309,
+            "census_block": "2508",
+            "census_block_group": "8",
+            "census_tract": "257551",
+            "subdivision": "Bloomingdale",
+            "neighborhood": "Land O' Lakes",
+            "flood_zone": "X"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "OffMarket",
+            "list_price": 230796,
+            "listed_date": "2025-02-27",
+            "last_sale_price": 181879,
+            "last_sale_date": "2016-11-01",
+            "sale_history": [
+              {
+                "price": 159971,
+                "date": "2013-04-17",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 181879,
+                "date": "2016-11-01",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "858612289",
+            "fetch_timestamp": "2025-05-28T18:23:04.494684",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.494912"
+      }
+    },
+    {
+      "property_index": 5,
+      "search_result": {
+        "address": "4891 Fowler Ave, Tampa, FL 33618",
+        "property_type": "SFR",
+        "price": 370612
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "6767 Fowler Ave, Tampa, FL 33624",
+            "street": "6767 Fowler Ave",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33615",
+            "property_type": "Condo",
+            "year_built": 1987,
+            "living_sqft": 1570,
+            "lot_sqft": 0,
+            "bedrooms": 3,
+            "bathrooms_full": 3,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 28.029609,
+            "lon": -82.536131,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 179316,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 179316,
+                "date": "2025-03-12",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_1672322_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_5546959_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "42358523",
+            "fetch_timestamp": "2025-05-28T18:23:04.495420",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U72502417I8184178361",
+            "address_full": "4891 Fowler Ave, Tampa, FL 33618",
+            "street": "4891 Fowler Ave",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33625",
+            "zoning": "PD",
+            "property_type": "SFR",
+            "property_use": "Single Family Residence",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 50 BLOCK 9 TAMPA PALMS",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 1979,
+            "living_sqft": 1917,
+            "building_sqft": 2154,
+            "lot_sqft": 13640,
+            "lot_acres": 0.31,
+            "floor_count": 1.0,
+            "bedrooms": 4,
+            "bathrooms_full": 3,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": true,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "Metal",
+            "roof_construction_type": "Hip",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 1,
+            "parking_space_sqft": 200,
+            "pool": false,
+            "deck": false,
+            "deck_area": 111,
+            "patio": false,
+            "patio_area": null,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": true,
+            "fireplaces": 1,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Gas",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": false,
+            "hoa_fee_annual": 447
+          },
+          "location": {
+            "lat": 27.992224,
+            "lon": -82.551629,
+            "census_block": "7252",
+            "census_block_group": "3",
+            "census_tract": "423423",
+            "subdivision": "Valrico",
+            "neighborhood": "Wesley Chapel",
+            "flood_zone": "X"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 370612,
+            "listed_date": "2024-12-05",
+            "last_sale_price": 243194,
+            "last_sale_date": "2012-10-16",
+            "sale_history": [
+              {
+                "price": 243194,
+                "date": "2012-10-16",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "905879922",
+            "fetch_timestamp": "2025-05-28T18:23:04.495217",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.495520"
+      }
+    },
+    {
+      "property_index": 6,
+      "search_result": {
+        "address": "4057 Westchase Blvd, Tampa, FL 33615",
+        "property_type": "Condo",
+        "price": 221406
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "8407 Carrollwood Blvd, Tampa, FL 33624",
+            "street": "8407 Carrollwood Blvd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33615",
+            "property_type": "Townhome",
+            "year_built": 1971,
+            "living_sqft": 2147,
+            "lot_sqft": 609,
+            "bedrooms": 4,
+            "bathrooms_full": 4,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 27.989611,
+            "lon": -82.593024,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 331241,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 331241,
+                "date": "2025-04-26",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_2585890_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_6974475_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "77371175",
+            "fetch_timestamp": "2025-05-28T18:23:04.495991",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U52091279I4751634093",
+            "address_full": "4057 Westchase Blvd, Tampa, FL 33615",
+            "street": "4057 Westchase Blvd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33615",
+            "zoning": "R-2",
+            "property_type": "Condo",
+            "property_use": "Condo",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 8 BLOCK 2 HUNTER'S GREEN",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 1981,
+            "living_sqft": 811,
+            "building_sqft": 982,
+            "lot_sqft": 0,
+            "lot_acres": 0,
+            "floor_count": 1.0,
+            "bedrooms": 2,
+            "bathrooms_full": 1,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": false,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "AsphaltShingle",
+            "roof_construction_type": "Hip",
+            "parking_type": "None",
+            "parking_spaces": 0,
+            "parking_space_sqft": 0,
+            "pool": false,
+            "deck": true,
+            "deck_area": null,
+            "patio": false,
+            "patio_area": null,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": false,
+            "fireplaces": 0,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Gas",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": false,
+            "hoa_fee_annual": null
+          },
+          "location": {
+            "lat": 28.021483,
+            "lon": -82.558652,
+            "census_block": "9437",
+            "census_block_group": "3",
+            "census_tract": "276139",
+            "subdivision": "Northdale",
+            "neighborhood": "Temple Terrace",
+            "flood_zone": "AE"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "Pending",
+            "list_price": 221406,
+            "listed_date": "2025-03-07",
+            "last_sale_price": 113504,
+            "last_sale_date": "2012-12-26",
+            "sale_history": [
+              {
+                "price": 113504,
+                "date": "2012-12-26",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "222969099",
+            "fetch_timestamp": "2025-05-28T18:23:04.495843",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.496084"
+      }
+    },
+    {
+      "property_index": 7,
+      "search_result": {
+        "address": "5665 Van Dyke Rd, Tampa, FL 33618",
+        "property_type": "Townhome",
+        "price": 241980
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "1930 Sheldon Rd, Tampa, FL 33618",
+            "street": "1930 Sheldon Rd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33618",
+            "property_type": "Condo",
+            "year_built": 1971,
+            "living_sqft": 1019,
+            "lot_sqft": 0,
+            "bedrooms": 3,
+            "bathrooms_full": 2,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 27.987651,
+            "lon": -82.594085,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 233536,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 233536,
+                "date": "2025-03-16",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_1077821_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_5527706_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "26859538",
+            "fetch_timestamp": "2025-05-28T18:23:04.496525",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U73108070I5654045801",
+            "address_full": "5665 Van Dyke Rd, Tampa, FL 33618",
+            "street": "5665 Van Dyke Rd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33624",
+            "zoning": "R-1",
+            "property_type": "Townhome",
+            "property_use": "Townhome",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 22 BLOCK 6 FISHHAWK RANCH",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 2004,
+            "living_sqft": 1958,
+            "building_sqft": 2233,
+            "lot_sqft": 1774,
+            "lot_acres": 0.04,
+            "floor_count": 2.0,
+            "bedrooms": 4,
+            "bathrooms_full": 3,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": false,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "AsphaltShingle",
+            "roof_construction_type": "Gable",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 2,
+            "parking_space_sqft": 400,
+            "pool": false,
+            "deck": false,
+            "deck_area": null,
+            "patio": true,
+            "patio_area": null,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": false,
+            "fireplaces": 0,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Electric",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": true,
+            "hoa_fee_annual": null
+          },
+          "location": {
+            "lat": 28.020183,
+            "lon": -82.582658,
+            "census_block": "1303",
+            "census_block_group": "1",
+            "census_tract": "138589",
+            "subdivision": "Twelve Oaks Village Unit No 2",
+            "neighborhood": "Valrico",
+            "flood_zone": "A"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 241980,
+            "listed_date": "2025-05-17",
+            "last_sale_price": 188307,
+            "last_sale_date": "2017-02-02",
+            "sale_history": [
+              {
+                "price": 188307,
+                "date": "2017-02-02",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "713778759",
+            "fetch_timestamp": "2025-05-28T18:23:04.496426",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.496589"
+      }
+    },
+    {
+      "property_index": 8,
+      "search_result": {
+        "address": "4689 Kennedy Blvd, Tampa, FL 33618",
+        "property_type": "Townhome",
+        "price": 307151
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "9213 Linebaugh Ave, Tampa, FL 33624",
+            "street": "9213 Linebaugh Ave",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33647",
+            "property_type": "SFR",
+            "year_built": 1980,
+            "living_sqft": 3194,
+            "lot_sqft": 6458,
+            "bedrooms": 6,
+            "bathrooms_full": 3,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 27.992518,
+            "lon": -82.592659,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 731365,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 731365,
+                "date": "2025-03-22",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_9760905_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_3431056_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "94237919",
+            "fetch_timestamp": "2025-05-28T18:23:04.497038",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U80646105I4665883664",
+            "address_full": "4689 Kennedy Blvd, Tampa, FL 33618",
+            "street": "4689 Kennedy Blvd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33647",
+            "zoning": "R-1",
+            "property_type": "Townhome",
+            "property_use": "Townhome",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 50 BLOCK 6 NEW TAMPA",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 2009,
+            "living_sqft": 1599,
+            "building_sqft": 1909,
+            "lot_sqft": 1048,
+            "lot_acres": 0.02,
+            "floor_count": 2.0,
+            "bedrooms": 3,
+            "bathrooms_full": 2,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": true,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "Metal",
+            "roof_construction_type": "Hip",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 1,
+            "parking_space_sqft": 200,
+            "pool": false,
+            "deck": false,
+            "deck_area": null,
+            "patio": false,
+            "patio_area": null,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": false,
+            "fireplaces": 0,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Electric",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": false,
+            "hoa_fee_annual": 841
+          },
+          "location": {
+            "lat": 27.997628,
+            "lon": -82.591713,
+            "census_block": "1177",
+            "census_block_group": "2",
+            "census_tract": "959921",
+            "subdivision": "Heritage Harbor",
+            "neighborhood": "New Tampa",
+            "flood_zone": "A"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 307151,
+            "listed_date": "2025-01-30",
+            "last_sale_price": 236382,
+            "last_sale_date": "2021-03-17",
+            "sale_history": [
+              {
+                "price": 237159,
+                "date": "2020-01-25",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 236516,
+                "date": "2020-06-23",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 236382,
+                "date": "2021-03-17",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "164214809",
+            "fetch_timestamp": "2025-05-28T18:23:04.496914",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.497121"
+      }
+    },
+    {
+      "property_index": 9,
+      "search_result": {
+        "address": "1391 Gunn Hwy, Tampa, FL 33624",
+        "property_type": "Condo",
+        "price": 245029
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "9844 Sheldon Rd, Tampa, FL 33624",
+            "street": "9844 Sheldon Rd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33618",
+            "property_type": "Condo",
+            "year_built": 1983,
+            "living_sqft": 1277,
+            "lot_sqft": 0,
+            "bedrooms": 3,
+            "bathrooms_full": 3,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 28.016236,
+            "lon": -82.56425,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 237007,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 237007,
+                "date": "2025-05-25",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_6729003_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_9722737_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "67681518",
+            "fetch_timestamp": "2025-05-28T18:23:04.497559",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U21648934I7372317936",
+            "address_full": "1391 Gunn Hwy, Tampa, FL 33624",
+            "street": "1391 Gunn Hwy",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33626",
+            "zoning": "R-1",
+            "property_type": "Condo",
+            "property_use": "Condo",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 36 BLOCK 10 HUNTER'S GREEN",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 2014,
+            "living_sqft": 2119,
+            "building_sqft": 2645,
+            "lot_sqft": 0,
+            "lot_acres": 0,
+            "floor_count": 2.0,
+            "bedrooms": 5,
+            "bathrooms_full": 2,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": false,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "AsphaltShingle",
+            "roof_construction_type": "Gable",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 1,
+            "parking_space_sqft": 200,
+            "pool": false,
+            "deck": false,
+            "deck_area": 107,
+            "patio": false,
+            "patio_area": 106,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": false,
+            "fireplaces": 0,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Electric",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": true,
+            "hoa_fee_annual": null
+          },
+          "location": {
+            "lat": 27.993671,
+            "lon": -82.569204,
+            "census_block": "8627",
+            "census_block_group": "1",
+            "census_tract": "402502",
+            "subdivision": "Countryway",
+            "neighborhood": "University Area",
+            "flood_zone": "AE"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 245029,
+            "listed_date": "2025-04-21",
+            "last_sale_price": 181718,
+            "last_sale_date": "2017-06-11",
+            "sale_history": [
+              {
+                "price": 181718,
+                "date": "2017-06-11",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "784980180",
+            "fetch_timestamp": "2025-05-28T18:23:04.497450",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.497668"
+      }
+    },
+    {
+      "property_index": 10,
+      "search_result": {
+        "address": "3531 Linebaugh Ave, Tampa, FL 33618",
+        "property_type": "Condo",
+        "price": 141942
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "6341 Bruce B Downs Blvd, Tampa, FL 33615",
+            "street": "6341 Bruce B Downs Blvd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33625",
+            "property_type": "SFR",
+            "year_built": 2000,
+            "living_sqft": 1493,
+            "lot_sqft": 11337,
+            "bedrooms": 3,
+            "bathrooms_full": 3,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 28.022827,
+            "lon": -82.550026,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 487497,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 487497,
+                "date": "2025-05-03",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_5366780_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_5590136_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "70244683",
+            "fetch_timestamp": "2025-05-28T18:23:04.498209",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U15418262I5224091511",
+            "address_full": "3531 Linebaugh Ave, Tampa, FL 33618",
+            "street": "3531 Linebaugh Ave",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33624",
+            "zoning": "RSC-4",
+            "property_type": "Condo",
+            "property_use": "Condo",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 44 BLOCK 1 BLOOMINGDALE",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 2019,
+            "living_sqft": 801,
+            "building_sqft": 945,
+            "lot_sqft": 0,
+            "lot_acres": 0,
+            "floor_count": 2.0,
+            "bedrooms": 3,
+            "bathrooms_full": 1,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": false,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "AsphaltShingle",
+            "roof_construction_type": "Hip",
+            "parking_type": "None",
+            "parking_spaces": 0,
+            "parking_space_sqft": 0,
+            "pool": false,
+            "deck": false,
+            "deck_area": null,
+            "patio": false,
+            "patio_area": null,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": false,
+            "fireplaces": 0,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Electric",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": false,
+            "hoa_fee_annual": 506
+          },
+          "location": {
+            "lat": 28.035291,
+            "lon": -82.560481,
+            "census_block": "7444",
+            "census_block_group": "2",
+            "census_tract": "629707",
+            "subdivision": "Countryway",
+            "neighborhood": "Fishhawk Ranch",
+            "flood_zone": "X"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 141942,
+            "listed_date": "2024-12-07",
+            "last_sale_price": 124744,
+            "last_sale_date": "2021-07-29",
+            "sale_history": [
+              {
+                "price": 113225,
+                "date": "2019-04-12",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 118436,
+                "date": "2020-07-28",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 124744,
+                "date": "2021-07-29",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "769462087",
+            "fetch_timestamp": "2025-05-28T18:23:04.498046",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.498449"
+      }
+    },
+    {
+      "property_index": 11,
+      "search_result": {
+        "address": "4784 Gunn Hwy, Tampa, FL 33624",
+        "property_type": "Townhome",
+        "price": 413269
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "7607 Westchase Blvd, Tampa, FL 33618",
+            "street": "7607 Westchase Blvd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33626",
+            "property_type": "SFR",
+            "year_built": 1978,
+            "living_sqft": 4007,
+            "lot_sqft": 8523,
+            "bedrooms": 4,
+            "bathrooms_full": 3,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 28.029505,
+            "lon": -82.578875,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 693709,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 693709,
+                "date": "2025-05-11",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_5381119_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_6176206_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "52311403",
+            "fetch_timestamp": "2025-05-28T18:23:04.499035",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U40176761I6186717464",
+            "address_full": "4784 Gunn Hwy, Tampa, FL 33624",
+            "street": "4784 Gunn Hwy",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33624",
+            "zoning": "R-2",
+            "property_type": "Townhome",
+            "property_use": "Townhome",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 34 BLOCK 3 HUNTER'S GREEN",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 1971,
+            "living_sqft": 1386,
+            "building_sqft": 1783,
+            "lot_sqft": 2883,
+            "lot_acres": 0.07,
+            "floor_count": 2.0,
+            "bedrooms": 3,
+            "bathrooms_full": 2,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": true,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "Metal",
+            "roof_construction_type": "Hip",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 1,
+            "parking_space_sqft": 200,
+            "pool": false,
+            "deck": true,
+            "deck_area": null,
+            "patio": false,
+            "patio_area": null,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": false,
+            "fireplaces": 0,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Gas",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": true,
+            "hoa_fee_annual": null
+          },
+          "location": {
+            "lat": 27.986422,
+            "lon": -82.575953,
+            "census_block": "2074",
+            "census_block_group": "5",
+            "census_tract": "308996",
+            "subdivision": "Fishhawk Ranch",
+            "neighborhood": "Riverview",
+            "flood_zone": "AE"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 413269,
+            "listed_date": "2025-03-15",
+            "last_sale_price": 337217,
+            "last_sale_date": "2021-04-25",
+            "sale_history": [
+              {
+                "price": 303810,
+                "date": "2019-09-05",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 337217,
+                "date": "2021-04-25",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "764864306",
+            "fetch_timestamp": "2025-05-28T18:23:04.498893",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.499136"
+      }
+    },
+    {
+      "property_index": 12,
+      "search_result": {
+        "address": "1486 Van Dyke Rd, Tampa, FL 33618",
+        "property_type": "SFR",
+        "price": 537765
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "1216 Hillsborough Ave, Tampa, FL 33618",
+            "street": "1216 Hillsborough Ave",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33647",
+            "property_type": "Townhome",
+            "year_built": 1978,
+            "living_sqft": 1810,
+            "lot_sqft": 2968,
+            "bedrooms": 3,
+            "bathrooms_full": 3,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 28.021661,
+            "lon": -82.584604,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 445645,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 445645,
+                "date": "2025-04-23",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_6208736_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_3109749_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "41420418",
+            "fetch_timestamp": "2025-05-28T18:23:04.499703",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U17565605I8394783647",
+            "address_full": "1486 Van Dyke Rd, Tampa, FL 33618",
+            "street": "1486 Van Dyke Rd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33624",
+            "zoning": "PD",
+            "property_type": "SFR",
+            "property_use": "Single Family Residence",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 7 BLOCK 1 UNIVERSITY SQUARE",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 1993,
+            "living_sqft": 2927,
+            "building_sqft": 3300,
+            "lot_sqft": 8910,
+            "lot_acres": 0.2,
+            "floor_count": 1.0,
+            "bedrooms": 4,
+            "bathrooms_full": 3,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": true,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "Metal",
+            "roof_construction_type": "Gable",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 2,
+            "parking_space_sqft": 400,
+            "pool": false,
+            "deck": true,
+            "deck_area": null,
+            "patio": false,
+            "patio_area": 85,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": false,
+            "fireplaces": 0,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Electric",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": false,
+            "hoa_fee_annual": null
+          },
+          "location": {
+            "lat": 28.014405,
+            "lon": -82.568144,
+            "census_block": "4439",
+            "census_block_group": "7",
+            "census_tract": "721101",
+            "subdivision": "New Tampa",
+            "neighborhood": "Northdale",
+            "flood_zone": "A"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "Pending",
+            "list_price": 537765,
+            "listed_date": "2025-03-19",
+            "last_sale_price": 421735,
+            "last_sale_date": "2018-08-14",
+            "sale_history": [
+              {
+                "price": 284180,
+                "date": "2012-06-15",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 394898,
+                "date": "2016-09-19",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 421735,
+                "date": "2018-08-14",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "263890091",
+            "fetch_timestamp": "2025-05-28T18:23:04.499539",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.499814"
+      }
+    },
+    {
+      "property_index": 13,
+      "search_result": {
+        "address": "3949 Carrollwood Blvd, Tampa, FL 33618",
+        "property_type": "SFR",
+        "price": 654905
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "1000 Bruce B Downs Blvd, Tampa, FL 33618",
+            "street": "1000 Bruce B Downs Blvd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33624",
+            "property_type": "Townhome",
+            "year_built": 2017,
+            "living_sqft": 1841,
+            "lot_sqft": 2735,
+            "bedrooms": 4,
+            "bathrooms_full": 3,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 28.012723,
+            "lon": -82.547536,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 379710,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 379710,
+                "date": "2025-02-27",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_7046039_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_6676819_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "48591969",
+            "fetch_timestamp": "2025-05-28T18:23:04.500548",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U30534118I9730911851",
+            "address_full": "3949 Carrollwood Blvd, Tampa, FL 33618",
+            "street": "3949 Carrollwood Blvd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33625",
+            "zoning": "RSC-4",
+            "property_type": "SFR",
+            "property_use": "Single Family Residence",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 39 BLOCK 3 BLOOMINGDALE",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 1983,
+            "living_sqft": 1637,
+            "building_sqft": 1832,
+            "lot_sqft": 6069,
+            "lot_acres": 0.14,
+            "floor_count": 1.0,
+            "bedrooms": 3,
+            "bathrooms_full": 3,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": false,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "Tile",
+            "roof_construction_type": "Hip",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 2,
+            "parking_space_sqft": 400,
+            "pool": false,
+            "deck": false,
+            "deck_area": null,
+            "patio": true,
+            "patio_area": 82,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": false,
+            "fireplaces": 0,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Gas",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": false,
+            "hoa_fee_annual": 629
+          },
+          "location": {
+            "lat": 28.006367,
+            "lon": -82.585503,
+            "census_block": "7665",
+            "census_block_group": "6",
+            "census_tract": "449665",
+            "subdivision": "New Tampa",
+            "neighborhood": "Valrico",
+            "flood_zone": "X"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 654905,
+            "listed_date": "2024-12-05",
+            "last_sale_price": 571566,
+            "last_sale_date": "2022-01-17",
+            "sale_history": [
+              {
+                "price": 571566,
+                "date": "2022-01-17",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "341753187",
+            "fetch_timestamp": "2025-05-28T18:23:04.500148",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.500666"
+      }
+    },
+    {
+      "property_index": 14,
+      "search_result": {
+        "address": "1441 Fowler Ave, Tampa, FL 33624",
+        "property_type": "Condo",
+        "price": 224470
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "4240 Bearss Ave, Tampa, FL 33615",
+            "street": "4240 Bearss Ave",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33615",
+            "property_type": "SFR",
+            "year_built": 2014,
+            "living_sqft": 3999,
+            "lot_sqft": 8747,
+            "bedrooms": 5,
+            "bathrooms_full": 5,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 28.029563,
+            "lon": -82.542501,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 990404,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 990404,
+                "date": "2025-03-03",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_8823590_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_4900727_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "78826154",
+            "fetch_timestamp": "2025-05-28T18:23:04.501154",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U21923741I9319531782",
+            "address_full": "1441 Fowler Ave, Tampa, FL 33624",
+            "street": "1441 Fowler Ave",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33624",
+            "zoning": "RSC-6",
+            "property_type": "Condo",
+            "property_use": "Condo",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 37 BLOCK 8 CROSS CREEK",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 1988,
+            "living_sqft": 865,
+            "building_sqft": 1011,
+            "lot_sqft": 0,
+            "lot_acres": 0,
+            "floor_count": 1.0,
+            "bedrooms": 3,
+            "bathrooms_full": 2,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": false,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "AsphaltShingle",
+            "roof_construction_type": "Gable",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 1,
+            "parking_space_sqft": 200,
+            "pool": false,
+            "deck": true,
+            "deck_area": 178,
+            "patio": true,
+            "patio_area": 107,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": false,
+            "fireplaces": 0,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Gas",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": true,
+            "hoa_fee_annual": 727
+          },
+          "location": {
+            "lat": 28.02177,
+            "lon": -82.538437,
+            "census_block": "3300",
+            "census_block_group": "5",
+            "census_tract": "188330",
+            "subdivision": "Carrollwood Village",
+            "neighborhood": "Riverview",
+            "flood_zone": "AE"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 224470,
+            "listed_date": "2025-03-29",
+            "last_sale_price": 177205,
+            "last_sale_date": "2020-04-06",
+            "sale_history": [
+              {
+                "price": 177404,
+                "date": "2017-12-19",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 177205,
+                "date": "2020-04-06",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "505273222",
+            "fetch_timestamp": "2025-05-28T18:23:04.501033",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.501273"
+      }
+    },
+    {
+      "property_index": 15,
+      "search_result": {
+        "address": "4174 Hillsborough Ave, Tampa, FL 33618",
+        "property_type": "Condo",
+        "price": 121427
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "3448 Waters Ave, Tampa, FL 33615",
+            "street": "3448 Waters Ave",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33618",
+            "property_type": "Townhome",
+            "year_built": 1998,
+            "living_sqft": 1283,
+            "lot_sqft": 640,
+            "bedrooms": 3,
+            "bathrooms_full": 3,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 28.002419,
+            "lon": -82.551683,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 284347,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 284347,
+                "date": "2025-04-04",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_5006355_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_5128407_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "42692959",
+            "fetch_timestamp": "2025-05-28T18:23:04.501757",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U45251502I5971299463",
+            "address_full": "4174 Hillsborough Ave, Tampa, FL 33618",
+            "street": "4174 Hillsborough Ave",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33615",
+            "zoning": "PD",
+            "property_type": "Condo",
+            "property_use": "Condo",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 27 BLOCK 10 FISHHAWK RANCH",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 1976,
+            "living_sqft": 1121,
+            "building_sqft": 1422,
+            "lot_sqft": 0,
+            "lot_acres": 0,
+            "floor_count": 1.0,
+            "bedrooms": 2,
+            "bathrooms_full": 2,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": false,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "Metal",
+            "roof_construction_type": "Gable",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 1,
+            "parking_space_sqft": 200,
+            "pool": false,
+            "deck": false,
+            "deck_area": null,
+            "patio": false,
+            "patio_area": null,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": false,
+            "fireplaces": 0,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Electric",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": false,
+            "hoa_fee_annual": 633
+          },
+          "location": {
+            "lat": 28.004341,
+            "lon": -82.537577,
+            "census_block": "8634",
+            "census_block_group": "1",
+            "census_tract": "395187",
+            "subdivision": "Westchase",
+            "neighborhood": "New Tampa",
+            "flood_zone": "A"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "Pending",
+            "list_price": 121427,
+            "listed_date": "2025-04-17",
+            "last_sale_price": 96954,
+            "last_sale_date": "2020-07-21",
+            "sale_history": [
+              {
+                "price": 66326,
+                "date": "2016-04-09",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 96954,
+                "date": "2020-07-21",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "138160010",
+            "fetch_timestamp": "2025-05-28T18:23:04.501610",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.501845"
+      }
+    },
+    {
+      "property_index": 16,
+      "search_result": {
+        "address": "7468 Van Dyke Rd, Tampa, FL 33624",
+        "property_type": "Townhome",
+        "price": 407018
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "8590 Kennedy Blvd, Tampa, FL 33618",
+            "street": "8590 Kennedy Blvd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33624",
+            "property_type": "SFR",
+            "year_built": 1974,
+            "living_sqft": 2126,
+            "lot_sqft": 6683,
+            "bedrooms": 4,
+            "bathrooms_full": 3,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 27.993723,
+            "lon": -82.549623,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 543558,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 543558,
+                "date": "2025-03-01",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_9060345_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_4114427_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "61330456",
+            "fetch_timestamp": "2025-05-28T18:23:04.502358",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U26951982I7937258146",
+            "address_full": "7468 Van Dyke Rd, Tampa, FL 33624",
+            "street": "7468 Van Dyke Rd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33625",
+            "zoning": "PD",
+            "property_type": "Townhome",
+            "property_use": "Townhome",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 4 BLOCK 3 COUNTRYWAY",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 2023,
+            "living_sqft": 1265,
+            "building_sqft": 1576,
+            "lot_sqft": 772,
+            "lot_acres": 0.02,
+            "floor_count": 2.0,
+            "bedrooms": 4,
+            "bathrooms_full": 2,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": false,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "AsphaltShingle",
+            "roof_construction_type": "Gable",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 3,
+            "parking_space_sqft": 600,
+            "pool": false,
+            "deck": true,
+            "deck_area": null,
+            "patio": false,
+            "patio_area": null,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": false,
+            "fireplaces": 0,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Gas",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": false,
+            "hoa_fee_annual": null
+          },
+          "location": {
+            "lat": 28.021902,
+            "lon": -82.581523,
+            "census_block": "6419",
+            "census_block_group": "5",
+            "census_tract": "660959",
+            "subdivision": "Carrollwood Village",
+            "neighborhood": "Northdale",
+            "flood_zone": "AE"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 407018,
+            "listed_date": "2025-03-08",
+            "last_sale_price": 371160,
+            "last_sale_date": "2022-08-06",
+            "sale_history": [
+              {
+                "price": 371160,
+                "date": "2022-08-06",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "548257474",
+            "fetch_timestamp": "2025-05-28T18:23:04.502194",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.502483"
+      }
+    },
+    {
+      "property_index": 17,
+      "search_result": {
+        "address": "7870 Dale Mabry Hwy, Tampa, FL 33624",
+        "property_type": "Condo",
+        "price": 241965
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "8785 Kennedy Blvd, Tampa, FL 33618",
+            "street": "8785 Kennedy Blvd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33626",
+            "property_type": "SFR",
+            "year_built": 2003,
+            "living_sqft": 3860,
+            "lot_sqft": 14236,
+            "bedrooms": 5,
+            "bathrooms_full": 5,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 28.038228,
+            "lon": -82.54713,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 803326,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 803326,
+                "date": "2025-03-24",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_4379634_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_6863947_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "18150351",
+            "fetch_timestamp": "2025-05-28T18:23:04.502989",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U85375163I5261465555",
+            "address_full": "7870 Dale Mabry Hwy, Tampa, FL 33624",
+            "street": "7870 Dale Mabry Hwy",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33625",
+            "zoning": "RSC-6",
+            "property_type": "Condo",
+            "property_use": "Condo",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 34 BLOCK 9 HUNTER'S GREEN",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 2003,
+            "living_sqft": 1550,
+            "building_sqft": 1989,
+            "lot_sqft": 0,
+            "lot_acres": 0,
+            "floor_count": 1.0,
+            "bedrooms": 4,
+            "bathrooms_full": 3,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": true,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "Metal",
+            "roof_construction_type": "Hip",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 1,
+            "parking_space_sqft": 200,
+            "pool": false,
+            "deck": true,
+            "deck_area": 165,
+            "patio": true,
+            "patio_area": 195,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": false,
+            "fireplaces": 0,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Electric",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": true,
+            "hoa_fee_annual": null
+          },
+          "location": {
+            "lat": 28.039504,
+            "lon": -82.561099,
+            "census_block": "5779",
+            "census_block_group": "6",
+            "census_tract": "239662",
+            "subdivision": "Heritage Harbor",
+            "neighborhood": "Westchase",
+            "flood_zone": "A"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "OffMarket",
+            "list_price": 241965,
+            "listed_date": "2025-01-18",
+            "last_sale_price": 205894,
+            "last_sale_date": "2022-04-04",
+            "sale_history": [
+              {
+                "price": 146040,
+                "date": "2014-09-21",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 131455,
+                "date": "2014-10-03",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 205894,
+                "date": "2022-04-04",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "842150084",
+            "fetch_timestamp": "2025-05-28T18:23:04.502869",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.503106"
+      }
+    },
+    {
+      "property_index": 18,
+      "search_result": {
+        "address": "5446 Kennedy Blvd, Tampa, FL 33618",
+        "property_type": "Townhome",
+        "price": 153905
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "5445 Westchase Blvd, Tampa, FL 33618",
+            "street": "5445 Westchase Blvd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33626",
+            "property_type": "Townhome",
+            "year_built": 1980,
+            "living_sqft": 2604,
+            "lot_sqft": 2602,
+            "bedrooms": 4,
+            "bathrooms_full": 4,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 28.024506,
+            "lon": -82.580644,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 347760,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 347760,
+                "date": "2025-02-28",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_6369688_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_5891913_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "81534588",
+            "fetch_timestamp": "2025-05-28T18:23:04.503675",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U58410580I1564005136",
+            "address_full": "5446 Kennedy Blvd, Tampa, FL 33618",
+            "street": "5446 Kennedy Blvd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33626",
+            "zoning": "PD",
+            "property_type": "Townhome",
+            "property_use": "Townhome",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 21 BLOCK 2 UNIVERSITY SQUARE",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 1972,
+            "living_sqft": 1700,
+            "building_sqft": 2117,
+            "lot_sqft": 928,
+            "lot_acres": 0.02,
+            "floor_count": 1.0,
+            "bedrooms": 4,
+            "bathrooms_full": 3,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": true,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "AsphaltShingle",
+            "roof_construction_type": "Gable",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 3,
+            "parking_space_sqft": 600,
+            "pool": false,
+            "deck": true,
+            "deck_area": null,
+            "patio": false,
+            "patio_area": null,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": true,
+            "fireplaces": 1,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Gas",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": false,
+            "hoa_fee_annual": 679
+          },
+          "location": {
+            "lat": 28.032386,
+            "lon": -82.579935,
+            "census_block": "4092",
+            "census_block_group": "4",
+            "census_tract": "498353",
+            "subdivision": "Cross Creek",
+            "neighborhood": "Land O' Lakes",
+            "flood_zone": "X"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 153905,
+            "listed_date": "2025-05-27",
+            "last_sale_price": 143761,
+            "last_sale_date": "2023-03-09",
+            "sale_history": [
+              {
+                "price": 103438,
+                "date": "2015-12-23",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 140115,
+                "date": "2022-06-12",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 143761,
+                "date": "2023-03-09",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "113186211",
+            "fetch_timestamp": "2025-05-28T18:23:04.503533",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.503776"
+      }
+    },
+    {
+      "property_index": 19,
+      "search_result": {
+        "address": "1828 Waters Ave, Tampa, FL 33624",
+        "property_type": "Townhome",
+        "price": 241103
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "1351 Van Dyke Rd, Tampa, FL 33615",
+            "street": "1351 Van Dyke Rd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33618",
+            "property_type": "SFR",
+            "year_built": 1984,
+            "living_sqft": 1571,
+            "lot_sqft": 12624,
+            "bedrooms": 4,
+            "bathrooms_full": 3,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 27.991366,
+            "lon": -82.586524,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 241906,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 241906,
+                "date": "2025-05-09",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_7417409_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_5133664_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "27845121",
+            "fetch_timestamp": "2025-05-28T18:23:04.504333",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U42429803I3504606372",
+            "address_full": "1828 Waters Ave, Tampa, FL 33624",
+            "street": "1828 Waters Ave",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33647",
+            "zoning": "R-1",
+            "property_type": "Townhome",
+            "property_use": "Townhome",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 42 BLOCK 2 HERITAGE HARBOR",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 1973,
+            "living_sqft": 1579,
+            "building_sqft": 1794,
+            "lot_sqft": 2156,
+            "lot_acres": 0.05,
+            "floor_count": 2.0,
+            "bedrooms": 3,
+            "bathrooms_full": 3,
+            "bathrooms_half": 1,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": true,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "AsphaltShingle",
+            "roof_construction_type": "Hip",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 2,
+            "parking_space_sqft": 400,
+            "pool": false,
+            "deck": true,
+            "deck_area": 177,
+            "patio": true,
+            "patio_area": null,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": true,
+            "fireplaces": 1,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Gas",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": true,
+            "hoa_fee_annual": null
+          },
+          "location": {
+            "lat": 28.043534,
+            "lon": -82.581568,
+            "census_block": "8408",
+            "census_block_group": "1",
+            "census_tract": "118777",
+            "subdivision": "University Square",
+            "neighborhood": "Westchase",
+            "flood_zone": "A"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "OffMarket",
+            "list_price": 241103,
+            "listed_date": "2024-12-27",
+            "last_sale_price": 203760,
+            "last_sale_date": "2022-04-01",
+            "sale_history": [
+              {
+                "price": 167313,
+                "date": "2018-03-09",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 179319,
+                "date": "2019-11-06",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 203760,
+                "date": "2022-04-01",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "493500085",
+            "fetch_timestamp": "2025-05-28T18:23:04.504163",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.504435"
+      }
+    },
+    {
+      "property_index": 20,
+      "search_result": {
+        "address": "7256 Hillsborough Ave, Tampa, FL 33624",
+        "property_type": "Condo",
+        "price": 330360
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "9856 Westchase Blvd, Tampa, FL 33615",
+            "street": "9856 Westchase Blvd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33626",
+            "property_type": "Townhome",
+            "year_built": 2008,
+            "living_sqft": 1099,
+            "lot_sqft": 374,
+            "bedrooms": 3,
+            "bathrooms_full": 2,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 27.98615,
+            "lon": -82.594899,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 367869,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 367869,
+                "date": "2025-04-24",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_5836641_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_6520012_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "25945101",
+            "fetch_timestamp": "2025-05-28T18:23:04.504922",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U63051646I7885456063",
+            "address_full": "7256 Hillsborough Ave, Tampa, FL 33624",
+            "street": "7256 Hillsborough Ave",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33626",
+            "zoning": "RSC-6",
+            "property_type": "Condo",
+            "property_use": "Condo",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 23 BLOCK 9 NORTHDALE",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 1973,
+            "living_sqft": 1506,
+            "building_sqft": 1862,
+            "lot_sqft": 0,
+            "lot_acres": 0,
+            "floor_count": 2.0,
+            "bedrooms": 4,
+            "bathrooms_full": 3,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": true,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "Metal",
+            "roof_construction_type": "Gable",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 1,
+            "parking_space_sqft": 200,
+            "pool": false,
+            "deck": true,
+            "deck_area": 114,
+            "patio": true,
+            "patio_area": 137,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": false,
+            "fireplaces": 0,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Electric",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": false,
+            "hoa_fee_annual": 1163
+          },
+          "location": {
+            "lat": 27.98866,
+            "lon": -82.538093,
+            "census_block": "2040",
+            "census_block_group": "7",
+            "census_tract": "429287",
+            "subdivision": "Carrollwood Village",
+            "neighborhood": "New Tampa",
+            "flood_zone": "AE"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "OffMarket",
+            "list_price": 330360,
+            "listed_date": "2025-01-20",
+            "last_sale_price": 231253,
+            "last_sale_date": "2016-08-15",
+            "sale_history": [
+              {
+                "price": 161477,
+                "date": "2009-08-20",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 155143,
+                "date": "2012-08-25",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 231253,
+                "date": "2016-08-15",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "148638228",
+            "fetch_timestamp": "2025-05-28T18:23:04.504786",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.505018"
+      }
+    },
+    {
+      "property_index": 21,
+      "search_result": {
+        "address": "4173 Fowler Ave, Tampa, FL 33624",
+        "property_type": "SFR",
+        "price": 810860
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "8856 Waters Ave, Tampa, FL 33618",
+            "street": "8856 Waters Ave",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33626",
+            "property_type": "Condo",
+            "year_built": 2005,
+            "living_sqft": 2072,
+            "lot_sqft": 0,
+            "bedrooms": 4,
+            "bathrooms_full": 4,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 27.992493,
+            "lon": -82.577,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 283307,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 283307,
+                "date": "2025-02-28",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_7979035_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_5162223_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "68068458",
+            "fetch_timestamp": "2025-05-28T18:23:04.505531",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U49243485I1840292502",
+            "address_full": "4173 Fowler Ave, Tampa, FL 33624",
+            "street": "4173 Fowler Ave",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33625",
+            "zoning": "R-2",
+            "property_type": "SFR",
+            "property_use": "Single Family Residence",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 27 BLOCK 5 HERITAGE HARBOR",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 2019,
+            "living_sqft": 3919,
+            "building_sqft": 4427,
+            "lot_sqft": 13635,
+            "lot_acres": 0.31,
+            "floor_count": 1.0,
+            "bedrooms": 6,
+            "bathrooms_full": 3,
+            "bathrooms_half": 1,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": true,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "Tile",
+            "roof_construction_type": "Gable",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 3,
+            "parking_space_sqft": 600,
+            "pool": false,
+            "deck": true,
+            "deck_area": null,
+            "patio": false,
+            "patio_area": 136,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": false,
+            "fireplaces": 0,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Electric",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": false,
+            "hoa_fee_annual": null
+          },
+          "location": {
+            "lat": 28.024553,
+            "lon": -82.588314,
+            "census_block": "3648",
+            "census_block_group": "2",
+            "census_tract": "881727",
+            "subdivision": "Countryway",
+            "neighborhood": "University Area",
+            "flood_zone": "A"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "OffMarket",
+            "list_price": 810860,
+            "listed_date": "2024-12-16",
+            "last_sale_price": 691399,
+            "last_sale_date": "2021-11-28",
+            "sale_history": [
+              {
+                "price": 619897,
+                "date": "2020-08-21",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 691399,
+                "date": "2021-11-28",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "657470123",
+            "fetch_timestamp": "2025-05-28T18:23:04.505402",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.505635"
+      }
+    },
+    {
+      "property_index": 22,
+      "search_result": {
+        "address": "9334 Fletcher Ave, Tampa, FL 33618",
+        "property_type": "SFR",
+        "price": 741260
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "8726 Bruce B Downs Blvd, Tampa, FL 33624",
+            "street": "8726 Bruce B Downs Blvd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33647",
+            "property_type": "Condo",
+            "year_built": 1989,
+            "living_sqft": 1043,
+            "lot_sqft": 0,
+            "bedrooms": 3,
+            "bathrooms_full": 2,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 28.026777,
+            "lon": -82.594275,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 231657,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 231657,
+                "date": "2025-03-14",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_6568751_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_1088173_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "94199084",
+            "fetch_timestamp": "2025-05-28T18:23:04.506132",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U14182688I9233801683",
+            "address_full": "9334 Fletcher Ave, Tampa, FL 33618",
+            "street": "9334 Fletcher Ave",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33625",
+            "zoning": "RSC-6",
+            "property_type": "SFR",
+            "property_use": "Single Family Residence",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 17 BLOCK 10 CROSS CREEK",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 1991,
+            "living_sqft": 4329,
+            "building_sqft": 5438,
+            "lot_sqft": 14608,
+            "lot_acres": 0.34,
+            "floor_count": 2.0,
+            "bedrooms": 5,
+            "bathrooms_full": 4,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": true,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "Tile",
+            "roof_construction_type": "Gable",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 3,
+            "parking_space_sqft": 600,
+            "pool": false,
+            "deck": false,
+            "deck_area": null,
+            "patio": false,
+            "patio_area": 169,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": true,
+            "fireplaces": 1,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Electric",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": true,
+            "hoa_fee_annual": 516
+          },
+          "location": {
+            "lat": 28.024348,
+            "lon": -82.567709,
+            "census_block": "4254",
+            "census_block_group": "8",
+            "census_tract": "656822",
+            "subdivision": "Carrollwood Village",
+            "neighborhood": "Valrico",
+            "flood_zone": "AE"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "OffMarket",
+            "list_price": 741260,
+            "listed_date": "2024-12-13",
+            "last_sale_price": 639039,
+            "last_sale_date": "2021-12-23",
+            "sale_history": [
+              {
+                "price": 551549,
+                "date": "2019-12-14",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 639039,
+                "date": "2021-12-23",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "194155216",
+            "fetch_timestamp": "2025-05-28T18:23:04.506019",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.506262"
+      }
+    },
+    {
+      "property_index": 23,
+      "search_result": {
+        "address": "3101 Gandy Blvd, Tampa, FL 33618",
+        "property_type": "SFR",
+        "price": 871544
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "2404 Fletcher Ave, Tampa, FL 33624",
+            "street": "2404 Fletcher Ave",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33647",
+            "property_type": "Condo",
+            "year_built": 2021,
+            "living_sqft": 1322,
+            "lot_sqft": 0,
+            "bedrooms": 4,
+            "bathrooms_full": 2,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 27.998321,
+            "lon": -82.572098,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 202306,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 202306,
+                "date": "2025-03-06",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_8174179_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_3980929_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "74390147",
+            "fetch_timestamp": "2025-05-28T18:23:04.506680",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U28970278I9827173896",
+            "address_full": "3101 Gandy Blvd, Tampa, FL 33618",
+            "street": "3101 Gandy Blvd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33626",
+            "zoning": "RSC-4",
+            "property_type": "SFR",
+            "property_use": "Single Family Residence",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 47 BLOCK 6 NEW TAMPA",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 1978,
+            "living_sqft": 4125,
+            "building_sqft": 4627,
+            "lot_sqft": 8302,
+            "lot_acres": 0.19,
+            "floor_count": 2.0,
+            "bedrooms": 5,
+            "bathrooms_full": 4,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": false,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "Metal",
+            "roof_construction_type": "Hip",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 3,
+            "parking_space_sqft": 600,
+            "pool": true,
+            "deck": true,
+            "deck_area": 221,
+            "patio": true,
+            "patio_area": null,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": false,
+            "fireplaces": 0,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Gas",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": false,
+            "hoa_fee_annual": 1040
+          },
+          "location": {
+            "lat": 28.014955,
+            "lon": -82.592168,
+            "census_block": "5067",
+            "census_block_group": "3",
+            "census_tract": "721456",
+            "subdivision": "Hunter's Green",
+            "neighborhood": "Wesley Chapel",
+            "flood_zone": "X"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "OffMarket",
+            "list_price": 871544,
+            "listed_date": "2025-01-05",
+            "last_sale_price": 532471,
+            "last_sale_date": "2017-05-05",
+            "sale_history": [
+              {
+                "price": 532471,
+                "date": "2017-05-05",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "391525408",
+            "fetch_timestamp": "2025-05-28T18:23:04.506566",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.506749"
+      }
+    },
+    {
+      "property_index": 24,
+      "search_result": {
+        "address": "3307 Fletcher Ave, Tampa, FL 33618",
+        "property_type": "Condo",
+        "price": 220666
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "2641 Sheldon Rd, Tampa, FL 33624",
+            "street": "2641 Sheldon Rd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33626",
+            "property_type": "Condo",
+            "year_built": 2017,
+            "living_sqft": 1742,
+            "lot_sqft": 0,
+            "bedrooms": 4,
+            "bathrooms_full": 2,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 28.042714,
+            "lon": -82.537411,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 275909,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 275909,
+                "date": "2025-04-12",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_8504717_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_5408773_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "39108080",
+            "fetch_timestamp": "2025-05-28T18:23:04.507469",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U21421270I6622693138",
+            "address_full": "3307 Fletcher Ave, Tampa, FL 33618",
+            "street": "3307 Fletcher Ave",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33615",
+            "zoning": "R-1",
+            "property_type": "Condo",
+            "property_use": "Condo",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 19 BLOCK 9 HERITAGE HARBOR",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 1980,
+            "living_sqft": 1842,
+            "building_sqft": 2245,
+            "lot_sqft": 0,
+            "lot_acres": 0,
+            "floor_count": 1.0,
+            "bedrooms": 4,
+            "bathrooms_full": 2,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": true,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "Metal",
+            "roof_construction_type": "Gable",
+            "parking_type": "None",
+            "parking_spaces": 0,
+            "parking_space_sqft": 0,
+            "pool": false,
+            "deck": true,
+            "deck_area": null,
+            "patio": true,
+            "patio_area": 136,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": true,
+            "fireplaces": 1,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Electric",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": false,
+            "hoa_fee_annual": 1020
+          },
+          "location": {
+            "lat": 27.987017,
+            "lon": -82.575833,
+            "census_block": "4421",
+            "census_block_group": "4",
+            "census_tract": "341863",
+            "subdivision": "Heritage Harbor",
+            "neighborhood": "Temple Terrace",
+            "flood_zone": "A"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "Pending",
+            "list_price": 220666,
+            "listed_date": "2025-05-09",
+            "last_sale_price": 121133,
+            "last_sale_date": "2016-02-20",
+            "sale_history": [
+              {
+                "price": 132404,
+                "date": "2010-07-16",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 121305,
+                "date": "2014-04-28",
+                "transaction_type": "ArmsLengthResidential"
+              },
+              {
+                "price": 121133,
+                "date": "2016-02-20",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "169200962",
+            "fetch_timestamp": "2025-05-28T18:23:04.507209",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.507567"
+      }
+    },
+    {
+      "property_index": 25,
+      "search_result": {
+        "address": "4384 Sheldon Rd, Tampa, FL 33618",
+        "property_type": "Townhome",
+        "price": 217908
+      },
+      "zillow_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "address_full": "1742 Fletcher Ave, Tampa, FL 33615",
+            "street": "1742 Fletcher Ave",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33647",
+            "property_type": "Condo",
+            "year_built": 1990,
+            "living_sqft": 1171,
+            "lot_sqft": 0,
+            "bedrooms": 2,
+            "bathrooms_full": 2,
+            "bathrooms_half": null,
+            "heating_type": "ForcedAirUnit",
+            "exterior_materials": [],
+            "interior_materials": []
+          },
+          "location": {
+            "lat": 28.008672,
+            "lon": -82.582331,
+            "county_fips": null,
+            "subdivision": null,
+            "neighborhood": null
+          },
+          "ai_fields": {
+            "architectural_styles": [],
+            "finish_quality_score": null,
+            "condition_score": null,
+            "road_relations": []
+          },
+          "price_history": {
+            "property_market_status": "Active",
+            "list_price": 161066,
+            "last_sale_price": null,
+            "mls_history": [
+              {
+                "price": 161066,
+                "date": "2025-05-15",
+                "event": "Listed",
+                "source": "Zillow"
+              }
+            ],
+            "sale_history": []
+          },
+          "photos": [
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_5805259_1.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            },
+            {
+              "sources": [
+                {
+                  "url": "https://photos.zillowstatic.com/fp/property_7039795_2.jpg",
+                  "width": 1024,
+                  "height": 768,
+                  "classification_type": "unassigned"
+                }
+              ]
+            }
+          ],
+          "meta_data": {
+            "data_source": "Zillow",
+            "source_property_id": "13030156",
+            "fetch_timestamp": "2025-05-28T18:23:04.507964",
+            "api_version": "v6.0_CLIENT_APPROVED_AS_IS"
+          }
+        }
+      },
+      "reapi_extraction": {
+        "PropertyDetails": {
+          "identification": {
+            "apn": "U85407963I5712407061",
+            "address_full": "4384 Sheldon Rd, Tampa, FL 33618",
+            "street": "4384 Sheldon Rd",
+            "city": "Tampa",
+            "state": "FL",
+            "postal_code": "33626",
+            "zoning": "R-1",
+            "property_type": "Townhome",
+            "property_use": "Townhome",
+            "landUse": "RESIDENTIAL",
+            "legalDescription": "LOT 4 BLOCK 3 BLOOMINGDALE",
+            "propertyClass": "Residential",
+            "interior_materials": [
+              "Drywall"
+            ],
+            "year_built": 2015,
+            "living_sqft": 1990,
+            "building_sqft": 2318,
+            "lot_sqft": 1359,
+            "lot_acres": 0.03,
+            "floor_count": 1.0,
+            "bedrooms": 3,
+            "bathrooms_full": 2,
+            "bathrooms_half": 0,
+            "basement": false,
+            "basement_type": "No Basement",
+            "basementFinishedPercent": 0,
+            "basementSquareFeet": 0,
+            "basementSquareFeetFinished": 0,
+            "basementSquareFeetUnfinished": 0,
+            "unit_count": 1,
+            "building_count": 1,
+            "attic": true,
+            "foundation_type": "Concrete Slab",
+            "roof_type": "Tile",
+            "roof_construction_type": "Hip",
+            "parking_type": "Attached Garage",
+            "parking_spaces": 3,
+            "parking_space_sqft": 600,
+            "pool": false,
+            "deck": true,
+            "deck_area": null,
+            "patio": true,
+            "patio_area": null,
+            "porch_type": null,
+            "porch_area": null,
+            "rv_parking": false,
+            "fireplace": false,
+            "fireplaces": 0,
+            "air_conditioning_type": "Central",
+            "heating_type": "ForcedAirUnit",
+            "heating_fuel_type": "Gas",
+            "water_type": "Public",
+            "sewer_type": "Public",
+            "hoa": false,
+            "hoa_fee_annual": 649
+          },
+          "location": {
+            "lat": 27.994447,
+            "lon": -82.5888,
+            "census_block": "8768",
+            "census_block_group": "5",
+            "census_tract": "959227",
+            "subdivision": "Valrico",
+            "neighborhood": "Westchase",
+            "flood_zone": "AE"
+          },
+          "ai_fields": {},
+          "price_history": {
+            "property_market_status": "Pending",
+            "list_price": 217908,
+            "listed_date": "2025-05-03",
+            "last_sale_price": 138738,
+            "last_sale_date": "2016-09-20",
+            "sale_history": [
+              {
+                "price": 138738,
+                "date": "2016-09-20",
+                "transaction_type": "ArmsLengthResidential"
+              }
+            ]
+          },
+          "photos": [],
+          "environmental_factors": [],
+          "meta_data": {
+            "data_source": "REAPI",
+            "source_property_id": "114855329",
+            "fetch_timestamp": "2025-05-28T18:23:04.507856",
+            "api_version": "v6.0_REAL_DATA"
+          }
+        }
+      },
+      "extraction_status": {
+        "zillow_success": true,
+        "reapi_success": true,
+        "extraction_timestamp": "2025-05-28T18:23:04.508026"
+      }
+    }
+  ]
+}
